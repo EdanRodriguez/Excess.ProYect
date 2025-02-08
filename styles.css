@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between; /* Ensures even spacing between logo, nav links, and button */
+    align-items: center; /* Vertically centers all elements in the header */
+    padding: 15px 5%; /* Adjusts spacing inside the header */;
+    border: none;
+    background-color: #ebecf2;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logo img {
+    height: 50px; /* Adjust as needed */
+    margin-right: 10px;
+}
+
+.logo span {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+
+.nav_links {
+    list-style: none; /* Removes bullet points */
+    display: flex; /* Aligns navigation items horizontally */
+    align-items: center; /* Vertically centers the navigation links */
+    gap: 20px; /* Adds spacing between navigation links */
+    margin: 0; /* Removes any default margin on the list */
+    padding-left: 18px; /* Removes any default padding on the list */
+
+}
+
+.nav_links li {
+    display: inline-block; /* Ensures each list item behaves as an inline-block */
+    margin-right: 20px;
+
+}
+
+.nav_links li a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+
+}
+
+.nav_links li a:hover {
+    color: #0079c2; /* Changes color on hover */
+}
+
+button {
+    padding: 9px 25px;
+    background: linear-gradient(270deg, #004aad,#0079c2);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: #ebecf2;
+}
+
+button:hover {
+    background-color: linear-gradient(270deg, #00c2ff, #0079c2);
+}
+
+.hero {
+    background-image: url('../IMG/kevin-schmid-eGkO_tLGPUo-unsplash3.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 91vh;
+    display: flex;
+}
+
+
+.hero-text h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    /*margin-left: 6%;*/
+    margin-right: 35%;
+    margin-top: 10%;
+    padding-left: 30px;
+    color: black;
+    background-color: #ebecf2;
+    /*border-radius: 30px;*/
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* X, Y, blur, color */
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.hero-text .underline {
+    font-family: 'Arial Narrow';
+    font-size: 22px;
+    font-weight: 650;
+    margin-bottom: 20px;
+    /*margin-left: 6%;*/
+    margin-top: 2%;
+    margin-right: 30%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 2;
+    color: black;
+    background-color: #ebecf2;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    /*border-radius: 50px;*/
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* X, Y, blur, color */
+}
+
+.hero-text button {
+    /*margin-left: 6%;*/
+    margin-top: 2%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    padding-right: 130px;
+    padding-left: 90px;
+    color: white;
+    text-decoration: none;
+    background: linear-gradient(270deg, #0079c2, #004aad);
+    font-size: 16px;
+}
