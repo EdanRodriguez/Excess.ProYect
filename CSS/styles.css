@@ -78,7 +78,7 @@ button:hover {
 }
 
 .hero {
-    background-image: url('/IMG/kevin-schmid-eGkO_tLGPUo-unsplash3.jpg');
+    background-image: url('../IMG/kevin-schmid-eGkO_tLGPUo-unsplash3.jpg');
     background-size: cover;
     background-position: center;
     height: 91vh;
