@@ -9,7 +9,7 @@ header {
     display: flex;
     justify-content: space-between; /* Ensures even spacing between logo, nav links, and button */
     align-items: center; /* Vertically centers all elements in the header */
-    padding: 0.8rem; /* Adjusts spacing inside the header */;
+    padding: 15px 5%; /* Adjusts spacing inside the header */;
     border: none;
     background-color: #ebecf2;
 }
@@ -21,12 +21,12 @@ header {
 }
 
 .logo img {
-    height: 3.3rem; /* Adjust as needed */
+    height: 50px; /* Adjust as needed */
     margin-right: 10px;
 }
 
 .logo span {
-    font-size: 1.2rem;
+    font-size: 20px;
     font-weight: bold;
     color: black;
 }
@@ -36,7 +36,7 @@ header {
     list-style: none; /* Removes bullet points */
     display: flex; /* Aligns navigation items horizontally */
     align-items: center; /* Vertically centers the navigation links */
-    gap: 2rem; /* Adds spacing between navigation links */
+    gap: 20px; /* Adds spacing between navigation links */
     margin: 0; /* Removes any default margin on the list */
     padding-left: 18px; /* Removes any default padding on the list */
 
@@ -44,12 +44,14 @@ header {
 
 .nav_links li {
     display: inline-block; /* Ensures each list item behaves as an inline-block */
+    margin-right: 20px;
+
 }
 
 .nav_links li a {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    font-size: 1.1rem;
+    font-size: 16px;
     color: black;
     text-decoration: none;
     transition: color 0.3s ease; /* Smooth color transition on hover */
@@ -79,7 +81,7 @@ button:hover {
     background-image: url('../IMG/kevin-schmid-eGkO_tLGPUo-unsplash3.jpg');
     background-size: cover;
     background-position: center;
-    height: 91vh;
+    height: 88vh;
     display: flex;
 }
 
@@ -88,10 +90,10 @@ button:hover {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 50px;
     font-weight: 700;
-    margin-bottom: 1rem;
+    margin-bottom: 20px;
     /*margin-left: 6%;*/
-    margin-right: 27rem;
-    margin-top: 7.5rem;
+    margin-right: 35%;
+    margin-top: 10%;
     padding-left: 30px;
     color: black;
     background-color: #ebecf2;
@@ -140,3 +142,4 @@ button:hover {
     background: linear-gradient(270deg, #0079c2, #004aad);
     font-size: 16px;
 }
+
