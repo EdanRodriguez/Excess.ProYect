@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Montserrat:ital,wght@0,500;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Keep your existing styles */
+* {
+    background: #EEEEEE;
+    padding: 0;
+    margin: 0;
+    font-family: 'Comfortaa';
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+html, body {
+    overflow: hidden;  /* Disables both horizontal and vertical scrolling */
+    height: 100%;      /* Ensure it takes full height */
+    width: 100%;       /* Ensure it takes full width */
+}
+
+/* Add transition effect for page fading */
+body {
+    opacity: 0;
+    transition: opacity 2s ease;
+}
+
+body.loaded {
+    opacity: 1;
+}
+
+/* Fade-out effect on page redirect */
+.fade-out {
+    opacity: 0;
+    transition: opacity 2s ease;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 7%;
+    background-color: #EEEEEE; /* Ensure navbar has its background */
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.logo a{
+    text-decoration: none;
+    color: black;
+}
+
+.logo a:hover{
+    color: grey;
+    cursor: pointer;
+}
+
+.nav-container {
+    display: flex;
+    flex: 1;
+    margin-left: 3vw;
+    padding: 12px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.nav-links li a:hover{
+    color: grey;
+}
+
+.lang-switch a {
+    font-size: 0.9rem;
+    white-space: nowrap;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.lang-switch a:hover{
+    color: rgb(107, 106, 106);
+}
+
+.mask {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;  /* Ensures it takes up the remaining space */
+    position: relative;
+}
+
+.mask-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.mask-container img {
+    max-width: 45%;
+    max-height: 45%;
+    object-fit: contain;
+    z-index: 2;
+    background-clip: text;
+    box-shadow: none; /* Removes shadow from the image */
+    padding-bottom: 4rem;
+}
+.mask-container img {
+    transition: max-width 0.3s ease, max-height 0.3s ease;
+}
+
+.mask-container img:hover {
+    max-width: 46%;
+    max-height: 46%;
+}
+
+.rotated-text-top {
+    transform: rotate(90deg);
+    position: absolute;
+    top: 80px;
+    right: 21rem;
+    color: white;
+    font-family: 'Exo 2';
+    font-size: 8rem;
+    letter-spacing: 8px;
+    font-weight: 700;
+    z-index: 1;
+    background: none;
+    position: absolute;
+}
+
+.rotated-text-bottom {
+    transform: rotate(-90deg);
+    position: absolute;
+    bottom: 160px;
+    left: 21rem;
+    color: white;
+    font-family: 'Exo 2';
+    font-size: 8rem;
+    letter-spacing: 8px;
+    font-weight: 700;
+    z-index: 1;
+    background: none;
+    position: absolute;
+}
+
+.left-title-first {
+    color: black;
+    z-index: 3;
+    display: block;
+    position: absolute;
+    left: 5.5rem; /* Adjust the spacing from the left edge as needed */
+    top: 5rem; /* Adjust the vertical position as needed */
+    background: none;
+   font-weight: 600;
+   font-family: 'Exo 2';
+}
+
+.left-Sub-first {
+    color: black;
+    z-index: 3;
+    display: block;
+    position: absolute;
+    left: 5.5rem; /* Align with .left-title-first */
+    top: 8.5rem; /* Adjust the vertical position to be below .left-title-first */
+    background: none;
+    font-weight: 400;
+}
+
+.fa-telegram{
+    color: black;
+    display: block;
+    position: absolute;
+    left: 5.6rem; /* Adjust the spacing from the left edge as needed */
+    top: 12rem; /* Adjust the vertical position as needed */
+}
+
+.fa-telegram a:hover{
+    color: rgb(107, 106, 106);
+    cursor: pointer;
+}
+
+.fa-instagram{
+    color: black;
+    display: block;
+    position: absolute;
+    top: 12rem; /* Adjust the vertical position as needed */
+    left: 7.5rem;
+}
+
+.fa-telegram a:hover{
+    color: rgb(107, 106, 106);
+    cursor: pointer;
+}
+
+.circle {
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    border-radius: 50%; /* Makes it a circle */
+    position: absolute;
+    top: 20rem; /* Adjust the vertical position as needed */
+    left: 5.5rem;
+}
+
+@keyframes slide-side-to-side {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(225px); /* Adjust the distance as needed */
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.circle {
+    animation: slide-side-to-side 3s infinite;
+}
+
+.left-text1-second{
+    color: black;
+    font-size: 20px;
+    z-index: 3;
+    display: block;
+    position: absolute;
+    left: 5.5rem; /* Align with .left-title-first */
+    top: 30rem; /* Adjust the vertical position to be below .left-title-first */
+    background: none;
+    font-weight: 600;
+    font-family: 'Exo 2';
+}
+
+.left-text2-second{
+    color: black;
+    font-size: 16px;
+    z-index: 3;
+    display: block;
+    position: absolute;
+    left: 5.5rem; /* Align with .left-title-first */
+    top: 32rem; /* Adjust the vertical position to be below .left-title-first */
+    background: none;
+    padding-right: 75%;
+    line-height: 2rem;
+}
+
+.square-bottom {
+    width: 50px;
+    height: 100px;
+    background-color: white;
+    display: block;
+    position: absolute;
+    right: 5.5rem; /* Align with .left-title-first */
+    bottom: 0rem;
+}
+
+.square-top{
+    width: 50px;
+    height: 100px;
+    background-color: white;
+    display: block;
+    position: absolute;
+    right: 15rem; /* Align with .left-title-first */
+    top: 0rem;
+}
+
+.top-circle-square {
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    border-radius: 50%; /* Makes it a circle */
+    position: absolute;
+    right: 16.09rem; /* Align with .left-title-first */
+    top: 0rem;
+    animation: slide-top-to-bottom 2.7s infinite;
+}
+
+@keyframes slide-top-to-bottom {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(70px); /* Adjust the distance as needed */
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.point-text1{
+    width: 12px;
+    height: 12px;
+    background-color: grey;
+    border-radius: 50%; /* Makes it a circle */
+    position: absolute;
+    right: 25rem; /* Align with .left-title-first */
+    top: 15.3rem;
+}
+
+.right-text1 {
+    position: absolute;
+    right: 18rem; /* Align with .left-title-first */
+    top: 15rem;
+    font-size: 10px;
+    width: 100px; /* Adjust the width as needed */
+    white-space: normal; /* Allow text to wrap */
+    line-height: 1.2rem; /* Adjust line height for better readability */
+}
+
+.point-text2{
+    width: 12px;
+    height: 12px;
+    background-color: grey;
+    border-radius: 50%; /* Makes it a circle */
+    position: absolute;
+    right: 16.8rem; /* Align with .left-title-first */
+    top: 25.2rem;
+}
+
+.right-text2{
+    position: absolute;
+    right: 10rem; /* Align with .left-title-first */
+    top: 25rem;
+    font-size: 10px;
+    width: 100px; /* Adjust the width as needed */
+    white-space: normal; /* Allow text to wrap */
+    line-height: 1.2rem; /* Adjust line height for better readability */
+    background: none;
+}
+
+.right-version-text{
+    position: absolute;
+    right: 35rem; /* Align with .left-title-first */
+    top: 29rem;
+    font-size: 10px;
+}
+
+.right-links{
+    color: black;
+    display: block;
+    position: absolute;
+    right: 44.3rem; /* Adjust the spacing from the left edge as needed */
+    top: 19rem; /* Adjust the vertical position as needed */
+    z-index: 4;
+}

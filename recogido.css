@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Montserrat:ital,wght@0,500;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Keep your existing styles */
+* {
+    background: #EEEEEE;
+    padding: 0;
+    margin: 0;
+    font-family: 'Comfortaa';
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+html, body {
+    overflow: hidden;  /* Disables both horizontal and vertical scrolling */
+    height: 100%;      /* Ensure it takes full height */
+    width: 100%;       /* Ensure it takes full width */
+}
+
+/* Add transition effect for page fading */
+body {
+    opacity: 0;
+    transition: opacity 2s ease;
+}
+
+body.loaded {
+    opacity: 1;
+}
+
+/* Fade-out effect on page redirect */
+.fade-out {
+    opacity: 0;
+    transition: opacity 2s ease;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 7%;
+    background-color: #EEEEEE; /* Ensure navbar has its background */
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.logo a{
+    text-decoration: none;
+    color: black;
+}
+
+.logo a:hover{
+    color: grey;
+    cursor: pointer;
+}
+
+.nav-container {
+    display: flex;
+    flex: 1;
+    margin-left: 3vw;
+    padding: 12px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.nav-links li a:hover{
+    color: grey;
+}
+
+.lang-switch a {
+    font-size: 0.9rem;
+    white-space: nowrap;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.lang-switch a:hover{
+    color: rgb(107, 106, 106);
+}
+
+.square-top{
+    width: 50px;
+    height: 100px;
+    background-color: white;
+    display: block;
+    position: absolute;
+    right: 15rem; /* Align with .left-title-first */
+    top: 0rem;
+}
+
+.top-circle-square {
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    border-radius: 50%; /* Makes it a circle */
+    position: absolute;
+    right: 16.09rem; /* Align with .left-title-first */
+    top: 0rem;
+    animation: slide-top-to-bottom 2.7s infinite;
+}
+
+@keyframes slide-top-to-bottom {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(70px); /* Adjust the distance as needed */
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
