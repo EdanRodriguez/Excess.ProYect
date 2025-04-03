@@ -128,3 +128,12 @@ body.loaded {
         transform: translateY(0);
     }
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    padding: 2rem 7%;
+    margin-top: 5rem;
+
+}
