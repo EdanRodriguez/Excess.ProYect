@@ -1,0 +1,85 @@
+I.	Escoge: (20pts)
+
+1.	Un enlace químico es: 
+
+a.	Fuerza que mantiene a dos átomos juntos.
+b.	Grupo de elementos que se encuentran en el último grupo de la tabla periódica.  
+c.	Fuerza que mantiene separados a dos átomos.
+
+2.	La regla del octeto nos dice que:
+
+a.	Los átomos pueden obtener una mayor estabilidad energética al formar moléculas o iones al completar una capa de valencia con ocho electrones. 
+b.	Los átomos pueden obtener una menor estabilidad energética al formar moléculas o iones al completar una capa de valencia con ocho electrones. 
+c.	Los átomos no pueden obtener una estabilidad energética al formar moléculas o iones al completar una capa de valencia con ocho electrones. 
+
+3.	Los iones son:
+
+a.	Átomos que están neutros.
+b.	Átomos que no están neutros.
+
+4.	Nos permite identificar los electrones de valencia que tiene un elemento y como es que se unen para formar los enlaces químicos. 
+
+a.	Estructura de Lewis.
+b.	Electrones de Valencia.
+c.	Gases nobles.
+
+5.	Ión con carga positiva:
+
+a.	Catión
+b.	Anión
+
+6.	Representación gráfica que muestra los electrones de valencia de un átomo:
+
+a.	Estructura de Lewis.
+b.	Diagrama de punto.
+c.	Configuración electrónica.
+
+7.	Ión con carga negativa:
+
+a.	Catión
+b.	Anión
+
+8.	Grupo de elementos que se encuentran en el último grupo de la tabla periódica:
+
+a.	Metales
+b.	Gases Nobles
+c.	No metales
+
+9.	Electrones de Valencia:
+
+a.	Electrones que se encuentran en la primera capa de un átomo.
+b.	Electrones que se encuentran en la segunda capa de un átomo.
+c.	Electrones que se encuentran en la capa más externa de un átomo.
+
+10.	Se forman por la atracción entre los núcleos de un átomo y los electrones negativos de otro átomo, o por la atracción entre los iones positivos y negativos.
+
+a.	Electrones de Valencia
+b.	Enlaces Químicos
+c.	Iones
+
+II.	Cierto o Falso: (20pts)
+
+___1. El diagrama de punto fue creado en el 1616.
+___2. El diagrama de punto fue creado por un químico español llamado Gilbert Lewis.
+___3. Los iones positivos se forman cuando un átomo pierde uno o más electrones o más electrones de valencia. 
+___4. Los elementos más propensos a formas iones positivos están ubicados en el lado derecho y en el centro de la tabla periódica.
+___5. Los elementos más propensos a formas iones positivos son los no metales.
+___6. Los metales tienen una facilidad para ceder electrones y formar cationes.
+___7. Los iones negativos se forman cuando un átomo recibe un electrón adicional.  
+___8. Los gases nobles son: Helio, Neón, Argón, Kriptón, Potasio y Radón.
+___9. Los gases nobles se caracterizan por ser estables y muy reactivos.
+___10. Los gases nobles no suelen unirse con otros elementos para formar compuestos.
+
+III.	Realiza la configuración electrónica y el diagrama de puntos de los siguientes elementos: (30pts)
+
+1.	O (8): 
+
+2.	V (23):
+
+3.	K (19):
+
+
+4.	Li (3):
+
+5.	B (15):
+
